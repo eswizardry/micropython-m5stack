@@ -80,7 +80,7 @@ class Display(object):
     def create(self):
         tft = display.TFT()
         tft.init(
-            tft.ILI9341,
+            tft.M5STACK,
             spihost=tft.HSPI,
             width=320,
             height=240,
